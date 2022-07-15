@@ -43,7 +43,7 @@ public class Config {
 	public boolean BREAK_ONLY_WITH_AXE;
 	public boolean BREAK_ONLY_WITH_PICKAXE;
 	public boolean BREAK_ONLY_WITH_SHEARS;
-	public boolean PLACE_ONLY_WITH_HAMMER;
+	
 
 	public boolean SURVIVAL_SICKLE_FLINT;
 	public boolean SURVIVAL_SICKLE_STONE;
@@ -312,7 +312,6 @@ public class Config {
 		this.BREAK_ONLY_WITH_AXE = settings.getBoolean("Survival.BreakOnlyWith.Axe");
 		this.BREAK_ONLY_WITH_PICKAXE = settings.getBoolean("Survival.BreakOnlyWith.Pickaxe");
 		this.BREAK_ONLY_WITH_SHEARS = settings.getBoolean("Survival.BreakOnlyWith.Shears");
-		this.PLACE_ONLY_WITH_HAMMER = settings.getBoolean("Survival.PlaceOnlyWith.Hammer");
 
 		this.SURVIVAL_SICKLE_FLINT = settings.getBoolean("Survival.Sickles.Flint");
 		this.SURVIVAL_SICKLE_STONE = settings.getBoolean("Survival.Sickles.Stone");
