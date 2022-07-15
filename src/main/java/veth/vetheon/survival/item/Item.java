@@ -24,7 +24,6 @@ public class Item {
     public static final Item HATCHET = get("hatchet", Material.WOODEN_AXE, 1, -1, 0.85);
     public static final Item MATTOCK = get("mattock", Material.WOODEN_PICKAXE, 1, -1, 0.85);
     public static final Item SHIV = get("shiv", Material.WOODEN_HOE, 1, -1, 0.85);
-    public static final Item HAMMER = get("hammer", Material.WOODEN_SWORD, 1, -1, 0.85);
     public static final Item FIRESTRIKER = get("firestriker", Material.WOODEN_SHOVEL, 1, -1, 0.0);
     public static final Item GRAPPLING_HOOK = get("grappling_hook", Material.FISHING_ROD, 1, -1, 0.95);
     public static final Item COMPASS = get("compass", Material.COMPASS, 1, -1, 0.85);
